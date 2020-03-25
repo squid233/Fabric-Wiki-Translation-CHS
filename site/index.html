@@ -1,331 +1,337 @@
-
-
-
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="x-ua-compatible" content="ie=edge">
-      
-      
-      
-      
-        <meta name="lang:clipboard.copy" content="Copy to clipboard">
-      
-        <meta name="lang:clipboard.copied" content="Copied to clipboard">
-      
-        <meta name="lang:search.language" content="en">
-      
-        <meta name="lang:search.pipeline.stopwords" content="True">
-      
-        <meta name="lang:search.pipeline.trimmer" content="True">
-      
-        <meta name="lang:search.result.none" content="No matching documents">
-      
-        <meta name="lang:search.result.one" content="1 matching document">
-      
-        <meta name="lang:search.result.other" content="# matching documents">
-      
-        <meta name="lang:search.tokenizer" content="[\s\-]+">
-      
-      <link rel="shortcut icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1, mkdocs-material-4.6.3">
-    
-    
-      
-        <title>My Docs</title>
-      
-    
-    
-      <link rel="stylesheet" href="assets/stylesheets/application.adb8469c.css">
-      
-      
-    
-    
-      <script src="assets/javascripts/modernizr.86422ebf.js"></script>
-    
-    
-      
-        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
-      
-    
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
-    
-    
-    
-      
-    
-    
-  </head>
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="None">
   
-    <body dir="ltr">
   
-    <svg class="md-svg">
-      <defs>
-        
-        
-      </defs>
-    </svg>
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Fabric Wiki 中文翻译文档</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u5f00\u59cb [Fabric Wiki]";
+    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
     
-      <a href="#welcome-to-mkdocs" tabindex="0" class="md-skip">
-        Skip to content
-      </a>
-    
-    
-      <header class="md-header" data-md-component="header">
-  <nav class="md-header-nav md-grid">
-    <div class="md-flex">
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title="My Docs" aria-label="My Docs" class="md-header-nav__button md-logo">
-          
-            <i class="md-icon"></i>
-          
-        </a>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
-      </div>
-      <div class="md-flex__cell md-flex__cell--stretch">
-        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
-          
-            <span class="md-header-nav__topic">
-              My Docs
-            </span>
-            <span class="md-header-nav__topic">
-              
-                Welcome to MkDocs
-              
-            </span>
-          
-        </div>
-      </div>
-      <div class="md-flex__cell md-flex__cell--shrink">
-        
-          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
-          
-<div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" aria-label="search" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
-      <label class="md-icon md-search__icon" for="__search"></label>
-      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
-        &#xE5CD;
-      </button>
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="result">
-          <div class="md-search-result__meta">
-            Type to start searching
-          </div>
-          <ol class="md-search-result__list"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Fabric Wiki 中文翻译文档</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
 </div>
-        
       </div>
-      
-    </div>
-  </nav>
-</header>
-    
-    <div class="md-container">
-      
-        
-      
-      
-      <main class="md-main" role="main">
-        <div class="md-main__inner md-grid" data-md-component="container">
-          
-            
-              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    <nav class="md-nav md-nav--primary" data-md-level="0">
-  <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="." title="My Docs" class="md-nav__button md-logo">
-      
-        <i class="md-icon"></i>
-      
-    </a>
-    My Docs
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-      
 
-  
-
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Welcome to MkDocs
-      </label>
-    
-    <a href="." title="Welcome to MkDocs" class="md-nav__link md-nav__link--active">
-      Welcome to MkDocs
-    </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href=".">开始 [Fabric Wiki]</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#fabric">安装并使用Fabric</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_1">教程</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">整合包和启动器开发者</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_3">教程</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_4">文档</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mod">Mod开发者</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#_5">教程</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#_6">例子</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#fabric_1">Fabric贡献者</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_7">非常奇怪的人</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#wiki">Wiki 相关</a>
+    </li>
     </ul>
-  
-</nav>
-    
-  </li>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">常见问题</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="faq/faq_user/">常见问题（用户）</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="faq/faq_expert/">常见问题（专家）</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
 
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Fabric Wiki 中文翻译文档</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
     
+      
+    
+    <li>开始 [Fabric Wiki]</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
   </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary">
   
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
-    Commands
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
-    Project layout
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          <div class="md-content">
-            <article class="md-content__inner md-typeset">
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
               
-                
-                
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+                <h1 id="welcome-to-the-fabric-wiki">Welcome to the Fabric Wiki!<a class="headerlink" href="#welcome-to-the-fabric-wiki" title="Permanent link">&para;</a></h1>
+<p>Fabric Wiki 是一个正在初期建设的 Wiki，致力于记录 Fabric 项目的方法，工具和 API。  </p>
+<p>Fabric 是针对 Minecraft 1.14 及更高版本（含快照）的模块化模组制作工具链。  </p>
+<p><strong>请一定要看看<a href="http://fabricmc.net/discuss">我们的社区空间</a>，并阅读我们的<a href="https://fabricmc.net/wiki/zh_cn:rules">社区规则</a>！</strong></p>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li><a href="/faq/faq_user">常见问题（用户）</a></li>
+<li><a href="/faq/faq_expert">常见问题（专家）</a>- 对以上内容的补充，提供更详细的答案</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-                
-                  
-                
-                
+<p><strong><a href="https://fabricmc.net/wiki/doku.php">官方英文文档</a></strong></p>
+<p>注：从这一条开始，蓝链为已更新完成或可连接到外部地址</p>
+<hr />
+<h2 id="fabric">安装并使用Fabric<a class="headerlink" href="#fabric" title="Permanent link">&para;</a></h2>
+<p>如果您是玩家、服务器管理员或整合包作者，请参考下面的文章：</p>
+<h3 id="_1">教程<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li>安装Fabric</li>
+<li>使用Minecraft Launcher安装Fabric</li>
+<li>使用MultiMC安装Fabric</li>
+<li>安装 Fabric 到 Minecraft 服务器</li>
+<li>添加模组</li>
+<li>更新现有的MultiMC实例</li>
+<li>安装并验证Java</li>
+</ul>
+<hr />
+<h2 id="_2">整合包和启动器开发者<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<p><strong>尽管我们建议使用 MultiMC 和 MCUpdater 进行整合包的游玩和分发，</strong> 但是这并不妨碍我们支持其他解决方案！</p>
+<h3 id="_3">教程<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li>使用 MCUpdater 的 Fabric 整合包（用法和制法）</li>
+<li>在Technic上发布Fabric 整合包</li>
+<li>在ATLauncher上发布Fabric 整合包</li>
+</ul>
+<h3 id="_4">文档<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li>整合包相关的下载终端</li>
+</ul>
+<hr />
+<h2 id="mod">Mod开发者<a class="headerlink" href="#mod" title="Permanent link">&para;</a></h2>
+<p>如果您想开始使用Fabric进行开发，这里有一些您可能会感兴趣的文章。</p>
+<h3 id="_5">教程<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
+<p><strong>安装</strong></p>
+<ul>
+<li>建立开发环境</li>
+<li><a href="https://wiki.vg/Debugging">启用Log4j调试消息</a> （外部地址）</li>
+<li>用CurseGradle发布Mods</li>
+</ul>
+<p><strong>基础</strong></p>
+<ul>
+<li>Fabric编写入门</li>
+<li>惯用词和术语</li>
+<li>惯用词和术语.</li>
+<li>服务器和客户端术语.</li>
+<li>开发工具</li>
+<li>第三方开发API</li>
+<li>应用更改而无需重新启动Minecraft(热重载)</li>
+<li>创建语言文件</li>
+<li>使用映射</li>
+<li>添加一个合成</li>
+</ul>
+<p><strong>物品和物品组</strong></p>
+<ul>
+<li>添加一个物品</li>
+<li>添加一个物品组</li>
+<li>添加一个物品提示</li>
+</ul>
+<p><strong>方块和方块实体</strong></p>
+<ul>
+<li>添加一个方块</li>
+<li>方块状态</li>
+<li>添加一个方块实体</li>
+<li>将物品放入容器中</li>
+<li>动态更改方块或物品的颜色</li>
+<li>操纵方块的外观</li>
+<li>渲染动态使用方块实体渲染器方块和物品</li>
+</ul>
+<p><strong>流体</strong></p>
+<ul>
+<li>创建流体</li>
+</ul>
+<p><strong>实体</strong></p>
+<ul>
+<li>添加实体</li>
+</ul>
+<p><strong>世界生成</strong></p>
+<ul>
+<li>在世界中生成自定义矿石</li>
+<li>生成特性</li>
+<li>生成结构特征</li>
+<li>在生成结构中使用拼图</li>
+<li>将您的结构添加到/locate</li>
+<li>添加生物群系</li>
+<li>维度概念</li>
+</ul>
+<p><strong>其他</strong></p>
+<ul>
+<li>添加盔甲</li>
+<li>添加自定义附魔</li>
+<li>自定义绑定热键</li>
+<li>监听事件（草稿）</li>
+<li>创建自定义事件</li>
+<li>向现有战利品表添加物品</li>
+<li>创建命令</li>
+<li>播放声音</li>
+<li>有用教程的列表</li>
+</ul>
+<p><strong>Mixins</strong></p>
+<ul>
+<li>介绍</li>
+<li>注入</li>
+<li>热交换Mixins</li>
+<li>导出Mixin类</li>
+</ul>
+<p><strong>高级</strong></p>
+<ul>
+<li>模组开发提示</li>
+<li>将加载器从0.3.x升级到0.4.x</li>
+<li>在Java代码库中更新Yarn映射</li>
+<li>DataFixers[WIP]</li>
+</ul>
+<p><strong>给Minecraft 1.14的教程</strong></p>
+<ul>
+<li>使用实体方块渲染器动态渲染方块和物品</li>
+<li>操纵方块的外观</li>
+</ul>
+<p><strong>文档</strong></p>
+<ul>
+<li>fabric.mod.json的结构</li>
+<li>fabric.mod.json规范</li>
+<li>入口点</li>
+<li><a href="http://github.com/SpongePowered/Mixin/wiki">Mixin库Wiki</a> （外部地址）</li>
+<li>Fabric渲染（草稿）</li>
+<li>Fabric构建管道（草稿）</li>
+<li>Fabric 加载器</li>
+<li>Fabric Loom</li>
+</ul>
+<h3 id="_6">例子<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/FabricMC/fabric-example-mod">Mod环境模板</a> （外部地址）</li>
+<li><a href="https://github.com/FabricMC/fabric/tree/master/fabric-testmods/java/net/fabricmc/fabric">Fabric API 测试Mod</a> （过时的）- 不是直接的教程，但可能会派上用场 （外部地址）</li>
+</ul>
+<hr />
+<h2 id="fabric_1">Fabric贡献者<a class="headerlink" href="#fabric_1" title="Permanent link">&para;</a></h2>
+<p>如果您想为Fabric做出贡献，您可能会对以下链接感兴趣：</p>
+<ul>
+<li>Fabric功能手续 - 或者如何让你的功能被接受（或者不被接受！）</li>
+<li>FabLabs - 提交PRs前起草新Fabric功能的试验地（注：PRs: Pull Requests）</li>
+<li><a href="https://github.com/FabricMC">Github上的Fabric</a> （外部地址）</li>
+<li><a href="https://github.com/FabricMC/yarn">游戏映射库+贡献文档</a> （外部地址）</li>
+</ul>
+<hr />
+<h2 id="_7">非常奇怪的人<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h2>
+<ul>
+<li>将Yarn更新为新的Minecraft版本 - 对于未来的Yarn开发者，而不是普通用户或模组开发者！</li>
+</ul>
+<hr />
+<h2 id="wiki">Wiki 相关<a class="headerlink" href="#wiki" title="Permanent link">&para;</a></h2>
+<ul>
+<li>元 Wiki - Wiki 贡献的起点</li>
+<li><a href="https://fabricmc.net/wiki/wiki:agenda">Wiki 议题</a> - 查看当前的议题，以及成员贡献状况 （外部地址）</li>
+</ul>
               
-              
-                
-
-
-              
-            </article>
+            </div>
           </div>
-        </div>
-      </main>
-      
-        
-<footer class="md-footer">
+          <footer>
   
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-footer-copyright">
-        
-        powered by
-        <a href="https://www.mkdocs.org" target="_blank" rel="noopener">MkDocs</a>
-        and
-        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-          Material for MkDocs</a>
-      </div>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="faq/faq_user/" class="btn btn-neutral float-right" title="常见问题（用户）">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
       
     </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
   </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
       
-    </div>
-    
-      <script src="assets/javascripts/application.c33a9706.js"></script>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
       
-      <script>app.initialize({version:"1.1",url:{base:"."}})</script>
       
-    
-  </body>
+      
+        <span style="margin-left: 15px"><a href="faq/faq_user/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
 </html>
+
+<!--
+MkDocs version : 1.1
+Build Date UTC : 2020-03-25 11:41:05
+-->

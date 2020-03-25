@@ -1,4 +1,36 @@
-site_name: My Docs
+site_name: Fabric Wiki 中文翻译文档
 
 theme:
-    name: material
+    name: readthedocs
+
+markdown_extensions:
+    - admonition
+    - codehilite:
+          guess_lang: false
+          linenums: false
+    - toc:
+          permalink: true
+    - footnotes
+    - meta
+    - def_list
+    - pymdownx.arithmatex
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_png
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist
+    - pymdownx.tilde
+
+nav:
+    - 开始 [Fabric Wiki]: index.md
+    - '常见问题':
+          - '常见问题（用户）': 'faq/faq_user.md'
+          - '常见问题（专家）': 'faq/faq_expert.md'

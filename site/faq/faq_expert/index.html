@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>常见问题（专家） - Fabric Wiki 中文翻译文档</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "\u5e38\u89c1\u95ee\u9898\uff08\u4e13\u5bb6\uff09";
+    var mkdocs_page_input_path = "faq\\faq_expert.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Fabric Wiki 中文翻译文档</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">开始 [Fabric Wiki]</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">常见问题</span></p>
+                <ul class="current">
+                    <li class="toctree-l1"><a class="reference internal" href="../faq_user/">常见问题（用户）</a>
+                    </li>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">常见问题（专家）</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#_2">互操作性</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#bukkitspigotpaper">对Bukkit/Spigot/Paper支持方面有什么进展？</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#fabricsponge">能让Fabric和Sponge一起用吗？</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#fabric-apioptifine">为什么Fabric API会破坏OptiFine光影？</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">互操作性（复古）</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#fabric">Fabric的实际运行版本是什么？</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#fabricmodsminecraft">Fabric可以与mods一起运行在旧的Minecraft版本吗？</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">哲学</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#mcpspigot">为什么要创建自己的映射，而不是使用MCP或Spigot的现有映射？</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Fabric Wiki 中文翻译文档</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>常见问题 &raquo;</li>
+        
+      
+    
+    <li>常见问题（专家）</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="_1">常见问题（专家）<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>这是常见问题（用户）的“专家/技术”扩展。</p>
+<h2 id="_2">互操作性<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h3 id="bukkitspigotpaper">对Bukkit/Spigot/Paper支持方面有什么进展？<a class="headerlink" href="#bukkitspigotpaper" title="Permanent link">&para;</a></h3>
+<p>在Loader的0.5.0开发分支中，有一些实验性的功能可以在Paper上运行Fabric Loader，但是有许多关于Bukkit API缺陷的注意事项（例如在枚举中硬编码方块和物品的列表，使得很难支持修改方块或物品）。这可能永远不会得到官方的支持，应该更多地将其视为一种好奇或特例场景。</p>
+<h3 id="fabricsponge">能让Fabric和Sponge一起用吗？<a class="headerlink" href="#fabricsponge" title="Permanent link">&para;</a></h3>
+<p>这里最好的方法是将SpongeCommon和SpongeVanilla的修改版本移植为实现Sponge API的Fabric mod。由于Fabric在其核心使用了一个SpongePowered的Mixin叉，这变得有些简单了 - 但是可以这么说，映射的差异弥补了这一点。</p>
+<h3 id="fabric-apioptifine">为什么Fabric API会破坏OptiFine光影？<a class="headerlink" href="#fabric-apioptifine" title="Permanent link">&para;</a></h3>
+<p>渲染修补程序Fabric API使用Indigo假设（出于性能和代码简单性的原因）原版vertex格式保持不变。Mods通常不会改变它，但是ShadersMod和类似的Mods是一个常见的例外。因此，Indigo不能很好地照原样发挥。</p>
+<h2 id="_3">互操作性（复古）<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="fabric">Fabric的实际运行版本是什么？<a class="headerlink" href="#fabric" title="Permanent link">&para;</a></h3>
+<p>理论上，没有什么能阻止你在任何版本的Minecraft上运行Fabric的mod loader，在任何混淆层下，一直运行到c0.0.11a。但是，这些版本中的大多数都不存在Yarn映射-因此，使mods变得…有点复杂。</p>
+<h3 id="fabricmodsminecraft">Fabric可以与mods一起运行在旧的Minecraft版本吗？<a class="headerlink" href="#fabricmodsminecraft" title="Permanent link">&para;</a></h3>
+<p>可以！一般来说，所有的JAR模组（比如老版本的OptiFine，或者Better Than Wolves）都应该工作得很好，并允许同样程度的可修改性，你会得到一个未经修改的版本的Minecraft。不过，还有一些特别的注意事项：</p>
+<p>对于大多数1.13之前版本的mod加载器，必须通过添加JVM参数-Dfabric.Loader.useCompatibilityClassLoader=true在Fabric加载器中启用兼容模式。</p>
+<p>关于运行Minecraft Forge：</p>
+<ul>
+<li>1.6~1.12.2：虽然Fabric过去运行在LaunchWrapper的顶部，但该功能目前尚未维护，需要重新设计。</li>
+<li>1.3.1~1.5.2：目前没有计划。</li>
+<li>1.2.5及以下：功能性，就像ModLoader。</li>
+</ul>
+<p>关于运行ModLoader：没有已知的问题。</p>
+<h2 id="_4">哲学<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="mcpspigot">为什么要创建自己的映射，而不是使用MCP或Spigot的现有映射？<a class="headerlink" href="#mcpspigot" title="Permanent link">&para;</a></h3>
+<p>关于Mod Coder Pack，MCP：</p>
+<ul>
+<li>MCP的映射在旧的MCP许可证（<a href="https://minecraft.gamepedia.com/Programs_and_editors/Mod_Coder_Pack#License_and_terms_of_use">保存在Minecraft Gamepedia上</a>）和新的MCPConfig存储库之间没有明确的许可条款。相反，Yarn是<a href="https://github.com/FabricMC/yarn/blob/1.14.4/LICENSE">CC0授权</a> 并可根据需要自由使用、修改和重新分发。<ul>
+<li>而其他项目如OptiFine和Sponge利用MCP，重新分配MCP映射 - 未经明确许可禁止 - 必须支持SRG混淆的mods，这<a href="https://github.com/MinecraftForge/MinecraftForge/blob/1.14.x/LICENSE.txt#L32-L35">只能由Forge完成</a>。</li>
+<li>即使我们获得了许可，我们也不太可能自由地将此许可扩展到其他开发人员。这将违背Fabric发展自由和透明的核心价值观。</li>
+</ul>
+</li>
+<li>MCP的映射并不总是更新到每个非“release”的Minecraft版本，也不允许其他人自己更新。这将禁止Fabric更新到快照或其他实验版本。<ul>
+<li>此外，MCP的更新工具链 - 最近几年 - 依赖于私有的Mojang信息，普通用户无法访问，以及没有明确许可条款的软件。相反，Fabric的更新工具链仅仅依赖于自由软件工具（Stitch、Matcher、Tiny-Remapper、Enigma）和过程的工件 - 就像映射一样 - 是公开可用的。</li>
+</ul>
+</li>
+<li>MCP的映射有一个更新过程，我们认为这个过程对代码评审不够开放，我们认为，在合并请求系统上使用<a href="http://mcpbot.bspk.rs/">IRC bot提交</a>。（不过，这在很大程度上是一个偏好问题。）</li>
+</ul>
+<p>关于Spigot：</p>
+<ul>
+<li>Spigot的映射只覆盖服务端，而且非常不完整，</li>
+<li>Spigot的映射与MCP有类似的许可问题。</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../faq_user/" class="btn btn-neutral" title="常见问题（用户）"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../faq_user/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
