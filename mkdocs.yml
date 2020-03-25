@@ -13,18 +13,6 @@ markdown_extensions:
     - footnotes
     - meta
     - def_list
-    - pymdownx.caret
-    - pymdownx.critic
-    - pymdownx.details
-    - pymdownx.emoji:
-          emoji_generator: python/name:pymdownx.emoji.to_png
-    - pymdownx.inlinehilite
-    - pymdownx.magiclink
-    - pymdownx.mark
-    - pymdownx.smartsymbols
-    - pymdownx.superfences
-    - pymdownx.tasklist
-    - pymdownx.tilde
 
 nav:
     - 开始 [Fabric Wiki]: index.md
