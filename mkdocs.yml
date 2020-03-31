@@ -19,3 +19,6 @@ nav:
     - '常见问题':
           - '常见问题（用户）': 'faq/faq_user.md'
           - '常见问题（专家）': 'faq/faq_expert.md'
+    - 'Mod开发者':
+        - '世界生成':
+            - '在世界中生成自定义矿石': 'modev/worldgen/ores.md'

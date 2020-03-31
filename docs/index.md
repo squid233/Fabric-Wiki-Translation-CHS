@@ -17,20 +17,20 @@ Fabric 是针对 Minecraft 1.14 及更高版本（含快照）的模块化模组
 如果您是玩家、服务器管理员或整合包作者，请参考下面的文章：
 
 ###教程
-- 安装Fabric
-- 使用Minecraft Launcher安装Fabric
-- 使用MultiMC安装Fabric
+- 安装 Fabric
+- 使用 Minecraft Launcher安装Fabric
+- 使用 MultiMC 安装 Fabric
 - 安装 Fabric 到 Minecraft 服务器
 - 添加模组
-- 更新现有的MultiMC实例
+- 更新现有的 MultiMC 实例
 - 安装并验证Java
 ---
 ##整合包和启动器开发者
 **尽管我们建议使用 MultiMC 和 MCUpdater 进行整合包的游玩和分发，** 但是这并不妨碍我们支持其他解决方案！
 ###教程
 - 使用 MCUpdater 的 Fabric 整合包（用法和制法）
-- 在Technic上发布Fabric 整合包
-- 在ATLauncher上发布Fabric 整合包
+- 在 Technic 上发布Fabric 整合包
+- 在 ATLauncher 上发布Fabric 整合包
 ###文档
 - 整合包相关的下载终端
 
@@ -83,9 +83,9 @@ Fabric 是针对 Minecraft 1.14 及更高版本（含快照）的模块化模组
 
 **世界生成**
 
-- 在世界中生成自定义矿石
+- [在世界中生成自定义矿石](/modev/worldgen/ores)
 - 生成特性
-- 生成结构特征
+- 生成结构特性
 - 在生成结构中使用拼图
 - 将您的结构添加到/locate
 - 添加生物群系
