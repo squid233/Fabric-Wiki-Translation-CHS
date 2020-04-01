@@ -5,8 +5,8 @@ Fabric 是针对 Minecraft 1.14 及更高版本（含快照）的模块化模组
 
 **请一定要看看[我们的社区空间](http://fabricmc.net/discuss)，并阅读我们的[社区规则](https://fabricmc.net/wiki/zh_cn:rules)！**
 
-- [常见问题（用户）](/faq/faq_user)
-- [常见问题（专家）](/faq/faq_expert)- 对以上内容的补充，提供更详细的答案
+- [常见问题（用户）](../../faq/faq_user)
+- [常见问题（专家）](../../faq/faq_expert)- 对以上内容的补充，提供更详细的答案
 
 **[官方英文文档](https://fabricmc.net/wiki/doku.php)**
 
