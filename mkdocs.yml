@@ -22,3 +22,5 @@ nav:
     - 'Mod开发者':
         - '世界生成':
             - '在世界中生成自定义矿石': 'modev/worldgen/ores.md'
+        - '杂项':
+            - '添加盔甲': 'modev/misc/armor.md'
